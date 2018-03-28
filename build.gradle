@@ -1,0 +1,10 @@
+repositories { mavenCentral(); maven { url "https://repo.jenkins-ci.org/releases/" } }
+configurations { tool }
+dependencies { tool "org.jenkins-ci.plugins:swarm-client:3.9" }
+
+task start(type: JavaExec) {
+    classpath = configurations.tool
+    main = "hudson.plugins.swarm.Client"
+    // args "if", "you", "need", "it"
+}
+defaultTasks "start"
