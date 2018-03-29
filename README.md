@@ -1,5 +1,5 @@
 
-# A small script for launching [Jenkins Swarm Plugin](https://wiki.jenkins.io/display/JENKINS/Swarm+Plugin) Client 
+# A small Gradle script for launching [Jenkins Swarm Plugin](https://wiki.jenkins.io/display/JENKINS/Swarm+Plugin) Client 
 
 This is a small gradle script for launching [Jenkins Swarm Plugin](https://wiki.jenkins.io/display/JENKINS/Swarm+Plugin) client.
 
